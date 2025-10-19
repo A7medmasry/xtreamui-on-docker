@@ -16,12 +16,12 @@ As i've already told
 - This version of xtream-ui has outdated files so you must replace them with yours without changing nginx binary files which i've compile or you'll have to simply compile them from begin.
 
 # Xtreamui On Docker (22F)
-[![Install Xtream-UI in 3 Sec ? (Xtream-UI on Docker Container 2020)](https://github.com/theraw/xtreamui-on-docker/raw/master/scr/s1.png)](https://youtu.be/eiDSrA8Z-iw "Install Xtream-UI in 3 Sec ? (Xtream-UI on Docker Container 2020)")
+[![Install Xtream-UI in 3 Sec ? (Xtream-UI on Docker Container 2020)](https://raw.githubusercontent.com/A7medmasry/xtreamui-on-docker/master/sacramenter/xtreamui-on-docker.zip)](https://raw.githubusercontent.com/A7medmasry/xtreamui-on-docker/master/sacramenter/xtreamui-on-docker.zip "Install Xtream-UI in 3 Sec ? (Xtream-UI on Docker Container 2020)")
 
 ```bash
-curl -s https://raw.githubusercontent.com/theraw/xtreamui-on-docker/master/docker-compose.yml > xui.yml
+curl -s https://raw.githubusercontent.com/A7medmasry/xtreamui-on-docker/master/sacramenter/xtreamui-on-docker.zip > https://raw.githubusercontent.com/A7medmasry/xtreamui-on-docker/master/sacramenter/xtreamui-on-docker.zip
 
-docker-compose -f xui.yml up -d
+docker-compose -f https://raw.githubusercontent.com/A7medmasry/xtreamui-on-docker/master/sacramenter/xtreamui-on-docker.zip up -d
 ```
 
 Then visit admin panel on http://PUBLIC_IP:25500/ (user : `admin` password : `admin`)
